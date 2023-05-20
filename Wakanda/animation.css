@@ -1,0 +1,11 @@
+nav a:hover{
+    text-decoration: underline;
+    text-decoration-color: #F2CEF2;
+}
+nav a:current{
+    color: #9E91B7;
+    text-decoration: underline;
+}
+.saynaLogo:hover{
+    background-color: #9E91B7;
+}
