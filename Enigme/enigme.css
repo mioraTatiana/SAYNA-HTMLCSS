@@ -70,7 +70,7 @@ a{
 
 #fondOvale1{
     font-family: "cantarell";
-    font-size: 15px;
+    font-size: 12px;
     background-image: url(EnigmeIMAGE/Pantherenigme2.png);
     width: 100%;
     height: 100%; 
@@ -107,7 +107,7 @@ a{
 
 .texte{
     font-family: "cantarell";
-    font-size: 15px;
+    font-size: 12px;
 }
 
 #alphabetGrand{
@@ -175,29 +175,139 @@ a{
 #fondOvale2{
     background-image: url(EnigmeIMAGE/Pantherenigme2.png);
     background-size: 100%;
+    background-repeat: no-repeat;
     text-align: center;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 60%;
+}
+
+#para2{
+    padding-top: 135px;
+    padding-left: 35px;
+}
+
+
+/* FOOTER */
+footer{
+    background-size: 100%;
+    background-image: url(../All\ pages/back_footer.png); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/* FOOTER */
-footer{
+#divFooter{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-size: 100%;
-    background-image: url(../All\ pages/back_footer.png); 
-    height: 400px;
+    gap: 150px;
+    border: 1px solid green;
+
 }
+
+.logo{
+    grid-area: "logo";
+}
+#logo{
+    position : relative;
+    width: 40%;
+    margin-top: 100px;
+    margin-left: 300px;
+    border: 1px solid green;
+
+}
+#marvel{
+    position: absolute;
+    left: 350px;
+    top: 1000px;
+}
+
+#logo{
+    position : relative;
+    width: 40%;
+    margin-top: 100px;
+    margin-left: 300px;
+    }
+#marvel{
+    position: absolute;
+    left: 15px;
+    top: 2400px;
+    }
+    
+
+
+
+/* #fondFooter{
+    background-image: url(../All\ pages/footer1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: 1px solid green; */
+    /* height: 50px;
+} */
+
+.texteFooter1{
+    letter-spacing: 10px;
+    font-size: 22px;
+}
+
+#apropos{
+    padding-top: 20px;
+} 
 
 #footerDIV1{
     display: flex;
     flex-direction: row;
+    gap: 50px;    
 }
 
 #lienIcon{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    justify-content: space-between;
+    padding-top: 20px;
 }
+
+.cercle{
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#facebook{
+    background-color: #F2CEF2;
+}
+
+#instagram{
+    background-color: #DF99F2;
+}
+
+#twitter{
+    background-color: #3D2DA6;
+}
+
+#tiktok{
+    background-color: #021740;
+}
+
+#texteFooter{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+    padding-left: 0%;
+}
+

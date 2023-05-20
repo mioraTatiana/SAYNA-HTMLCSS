@@ -1,16 +1,4 @@
-/* importation du font family */
-@font-face{
-    font-family: beyno;
-    src: url(../../z/BEYNO/BEYNO.ttf);
-}
-@font-face{
-    font-family: wakanda;
-    src: url(../../z/WakandaForever-Regular.ttf);
-}
-@font-face{
-    font-family: cantarel;
-    src: url(../../z/Cantarell-Regular.ttf);
-}
+
 body{
     margin: 0;
     padding: 0;
@@ -21,9 +9,10 @@ body{
     background-repeat: no-repeat;
     color: #F2CEF2;
 }
+
 /* navigation */
 nav{
-    width: 900px;
+    width: 1000px;
     padding-top: 20px;
     margin-left: 200px;
     display: flex;
@@ -34,19 +23,22 @@ nav a{
     text-decoration: none;
     font-size: 15px;
     font-family: "beyno";
-    margin-left: 20px;
+    margin-left: 30px;
     color: #F2CEF2;
 }
+
 /* texte pricipal */
 .main{
-    height: 800px;
-   background: url("../Assets/Wakanda/Pantherwakanda1.png");
+   height: 650px;
+   width: 100%;
+   background: url("WakandaIMAGE/Pantherwakanda1.png");
    background-size: 100%;
    background-repeat: no-repeat;
-   background-size: cover;
+   /* background-size: cover; */
    display: flex;
    align-items: center;
-   justify-content: flex-start;
+   /* justify-content: flex-start; */
+   border: 1PX solid black;
 }
 .textPrincipal{
     width: 500px;
@@ -64,9 +56,10 @@ nav a{
     font-family:"wakanda" ;
 }
 p{
-    font-family: "cantarel";
+    font-family: "cantarell";
     font-size: 10px;
 }
+
 /* texte de description */
 .descriptionText{
     width: 100%;
@@ -75,14 +68,17 @@ p{
     color: #ffff;
 }
 .contenu1, .contenu2{
-    padding: 40px 80px;
+    padding:  80px; 
+    border: 1PX solid green;
+    padding-top: 20PX;
+
 }
 #fontImage2{
     position: absolute;
     opacity: 0.6;
     width: 80%;
     right: 80px;
-    top: 750px;
+    top: 680px;
 }
 .descriptionText h2{
     font-family: "beyno";
@@ -98,6 +94,7 @@ video{
 .descriptionText div{
     margin-top: 50px;
 }
+
 /* footer */
 footer{
     width: 100%;
@@ -108,9 +105,13 @@ footer{
     grid-template-areas: 
     "logo page localisation"
     "logo copy localisation ";
-    background: linear-gradient(180deg, #3D2DA6 0%, #021740
-    90.43%);
+    /* background: linear-gradient(180deg, #3D2DA6 0%, #021740
+    90.43%); */
+    background-image: url(../All\ pages/back_footer.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
+
 /* div logo */
 .logo{
     grid-area: "logo";
@@ -124,23 +125,25 @@ footer{
 #marvel{
     position: absolute;
     left: 350px;
-    top: 2450px;
+    top: 2350px;
 }
+
 /* div page */
 .page{
     grid-area: "page";
     margin-top: 50px;
 }
 .page h3,.localisation h3{
-    font-family: "cantarel";
+    font-family: "cantarell";
     letter-spacing: 3px;
 }
 .page a{
     text-decoration: none;
     color: #F2CEF2;
-    font-family: "cantarel";
+    font-family: "cantarell";
     margin-top: 20px;
 }
+
 /* div localisation */
 .localisation{
     grid-area: "localisation";
@@ -151,8 +154,30 @@ footer{
     margin-left: 10px;
 }
 .copyrigth{
-    grid-area: "copy";
-    margin-top: 200px;
+    /* grid-area: "copy"; */
+    margin-top: 100px;
     font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    gap: 20px;
+    width: 400px;
+
 }
 
+.copy{
+    width: 100px;
+
+}
+
+
+
+/* cercle entre copy right */
+.cercle{
+    border: 1px solid #9E91B7;
+    background-color:#9E91B7;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+
+}
