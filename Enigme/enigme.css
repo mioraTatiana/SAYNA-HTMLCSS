@@ -207,49 +207,32 @@ footer{
     justify-content: center;
     align-items: center;
     gap: 150px;
-    border: 1px solid green;
+    height: 400px;
 
 }
 
 .logo{
     grid-area: "logo";
+    
 }
 #logo{
     position : relative;
     width: 40%;
     margin-top: 100px;
     margin-left: 300px;
-    border: 1px solid green;
-
 }
-#marvel{
-    position: absolute;
-    left: 350px;
-    top: 1000px;
-}
-
-#logo{
-    position : relative;
-    width: 40%;
-    margin-top: 100px;
-    margin-left: 300px;
-    }
-#marvel{
-    position: absolute;
-    left: 15px;
-    top: 2400px;
-    }
     
 
-
-
-/* #fondFooter{
+    .logo{
     background-image: url(../All\ pages/footer1.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    border: 1px solid green; */
-    /* height: 50px;
-} */
+    height: 235px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
 
 .texteFooter1{
     letter-spacing: 10px;
@@ -288,18 +271,22 @@ footer{
 
 #facebook{
     background-color: #F2CEF2;
+    border: 1px solid #F2CEF2;
 }
 
 #instagram{
     background-color: #DF99F2;
+    border: 1px solid #DF99F2;
 }
 
 #twitter{
     background-color: #3D2DA6;
+    border: 1px solid #3D2DA6;
 }
 
 #tiktok{
-    background-color: #021740;
+    background-color: #07338C;
+    border: 1px solid #07338C;
 }
 
 #texteFooter{
