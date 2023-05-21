@@ -1,0 +1,141 @@
+body{
+    background-image: url(../All\ pages/arrière_plan.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: azure;
+    padding: 0;
+    margin: 0;
+    margin-right: 0%;
+    width: 100%;
+}
+
+/* NAV */
+nav{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    height: 40px;
+    
+}
+
+
+a{
+    text-decoration: none;
+    color: #fff;
+    padding-left: 30px;
+    font-family: "beyno";
+}
+
+/* FOOTER */
+footer{
+    background-size: 100%;
+    background-image: url(../All\ pages/back_footer.png); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#divFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    height: 400px;
+
+}
+
+.logo{
+    grid-area: "logo";
+    
+}
+#logo{
+    position : relative;
+    width: 40%;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+    
+
+    .logo{
+    background-image: url(../All\ pages/footer1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 235px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.texteFooter1{
+    letter-spacing: 10px;
+    font-size: 22px;
+}
+
+#apropos{
+    padding-top: 20px;
+} 
+
+#footerDIV1{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;    
+}
+
+#lienIcon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.cercle{
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#facebook{
+    background-color: #F2CEF2;
+    border: 1px solid #F2CEF2;
+}
+
+#instagram{
+    background-color: #DF99F2;
+    border: 1px solid #DF99F2;
+}
+
+#twitter{
+    background-color: #3D2DA6;
+    border: 1px solid #3D2DA6;
+}
+
+#tiktok{
+    background-color: #07338C;
+    border: 1px solid #07338C;
+}
+
+#texteFooter{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+    padding-left: 0%;
+}
+
