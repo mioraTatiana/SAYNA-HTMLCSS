@@ -78,6 +78,7 @@ nav a{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+     /* position: fixed;  */
 }
 .icone img{
     width: 20px;

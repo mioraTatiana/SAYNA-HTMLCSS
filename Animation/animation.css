@@ -17,3 +17,9 @@ nav a:current{
     );
 
 }
+
+#marvel:hover, .logo:hover, .cercle2:hover, .cercle:hover{
+    transform: scale(1.1);
+}
+ 
+
