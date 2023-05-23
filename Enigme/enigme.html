@@ -7,6 +7,9 @@
     <title>enigme</title>
     <link rel="stylesheet" href="enigme.css">
     <link rel="stylesheet" href="../font/font.css">
+    <link rel="stylesheet" href="../Animation/animation.css">
+    <link rel="stylesheet" href="../Enigme/mediaEnigme.css">
+
 
 </head>
 <body>
@@ -44,14 +47,14 @@
                 </div>
 
                 <div id="fondOvale1">
-                    <p id="para1">
+                    <div id="para1">
                         Les Dora Milaje sont de farouches guerrières d’élite. Elles constituent la garde <br>
                         rapprochée du Roi en personne et ont de nombreuses occasions de lui sauver la <br>
                         vie. Leur Générale, Okoyé est également la dirigeante des forces armées et des <br>
                         renseignements wakandais. <br>
                         Prouve ton talent d’espion et déchiffre cette réplique d’Okoyé écrite en Wakandais, <br>
                         et apprend par la même occasion la première valeur d’une Dora Milaje !
-                    </p> 
+                    </div> 
                     
                 </div>
 
@@ -73,8 +76,8 @@
             <div id="DSdeuxiemeDiv">
                 <div id="DSDDpremiere">
                     <div >
-                        <div>
-                            <span class="texte"> Voici la transicription de l’alphabet : </span><br>
+                        <div id="conteneurTranscription">
+                            <div class="texte"> Voici la transicription de l’alphabet : </div><br>
 
                             <div id="transcription">
                                 A = <span class="alphabet">A</span> ; B = <span class="alphabet">b</span> ; c = <span class="alphabet">c </span>; d = <span class="alphabet">d </span>; e = <span class="alphabet">e</span> ; f = <span class="alphabet">f </span>; g = <span class="alphabet">g</span> ; h = <span class="alphabet">h</span> ; i = <span class="alphabet">i</span> ; j = <span class="alphabet">j</span> ;  <br>
@@ -87,9 +90,9 @@
                     </div>
                     <div>
                         <form action="">
-                            <p class="texte">
+                            <div class="texte">
                                 Alors,as tu eu la reponse?
-                            </p>
+                            </div>
                             <input type="text" name="réponse" id="réponse" placeholder="Réponse">
                             <div id="divEnvoyer">
                                 <input type="submit" value="ENVOYER" id="envoyer">
@@ -119,32 +122,31 @@
 
         <div id="divFooter">
             <div class="logo">
-                <!-- <img src="../All pages/footer1.png" alt="logo cercle" id="logo"> -->
                 <img src="../All pages/footer2.png" alt="icone marvel" id="marvel">
             </div>
         
-            <div>
+            <div  id="sectionfooter" >
                 <div id="footerDIV1">
-                    <div >
+                    <div id="wakandaFooter">
                         <div class="texteFooter1">PAGES</div>
                         <div id="apropos">A propos <br> Wakanda</div>
                     </div>
     
-                    <div>
+                    <div id="retrouver">
                         <div class="texteFooter1">RETROUVEZ NOUS</div>
                         <div id="lienIcon">
-                            <span class="cercle" id="facebook">
+                            <div class="cercle" id="facebook">
                                 <img src="../All pages/icon_facebook.png" alt="icon Facebook" >
-                            </span>
-                            <span class="cercle" id="instagram">
+                            </div>
+                            <div class="cercle" id="instagram">
                                 <img src="../All pages/icon_instagram.png" alt="icon instagram" >
-                            </span>
-                            <span class="cercle" id="twitter">
+                            </div>
+                            <div class="cercle" id="twitter">
                                 <img src="../All pages/icon_twitter.png" alt=" icon twinter" >
-                            </span>
-                            <span class="cercle" id="tiktok">
+                            </div>
+                            <div class="cercle" id="tiktok">
                                 <img src="../All pages/icon_tiktok.png" alt="icon tiktok" >
-                            </span>
+                            </div>
                         </div>
                     </div>
         
@@ -152,7 +154,9 @@
     
                 <div class="texte" id="texteFooter">
                    <div> 2022 Tous droits réservés</div> 
-                   <div> Politique de confidentialité</div> 
+                   <div class="cercle2"></div>
+                   <div> Politique de confidentialité</div>
+                   <div class="cercle2"></div> 
                    <div>Conditions d’utilisation</div> 
                 </div>
     

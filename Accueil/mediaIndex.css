@@ -1,0 +1,226 @@
+@media screen and (max-width: 800px){
+    /* navigation */
+    nav{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navigation{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* section principale */
+    .principalText{
+        margin-top: 5px;
+        font-size: 13px;
+        width: 90%;
+    }
+
+    .icone{
+        margin-top: 50px;
+        margin-left: 30px;
+        margin-right: 10px;
+    }
+
+    /* section horizontale */
+
+    .horizontal{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        background-color: #021740;
+        padding: 20px;
+        padding-left: 10px;
+        margin: 5%;
+        height: 1300px;
+        border-radius: 30px;
+
+    }
+
+    .horizontal p{
+        font-size: smaller;
+
+    }
+    
+
+    .horizontal img{
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+
+    #killmonger img{
+        width: 250px;
+        height: 300px;
+        position: static;
+        left: 100px;
+        top: 620px;
+    }
+
+    /* section naissance du prince */
+    .prince{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+  
+    }
+    
+    /* illustration */
+    .apropos{
+        width: 250px;
+        padding: 50px 50px;
+        margin-top: 20px;
+        margin-left: 50px;
+        background-color: #f3f0f0;
+        border-radius: 10px;
+        color: #0B0B0B;
+        font-size: 12px;
+    }
+    
+
+    .apropos img{
+        position: static;
+    }
+
+    /* formulaire */
+    .formConteneur{
+        width: 600px;
+        height: 400px;
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formConteneur h3{
+        font-size: 20px;
+        margin-left: 100px;
+    }
+
+    input{
+        padding: 5px 8px;
+        border-radius: 10px;
+        width: 350px;
+
+
+
+    }
+
+    textarea{
+        width: 300px;
+        height: 100px;
+        border-radius: 10px;
+    
+    }
+
+    /* footer */
+    footer{
+        background-color: #11213F;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: none;
+        height: 700px;
+        padding-bottom: 20px;
+
+        
+    } 
+
+    #divFooter{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+    
+    }
+
+    .logo{
+        background-image: url(../All\ pages/footer1.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 235px;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+
+    #sectionfooter{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #footerDIV1{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    #lienIcon{
+        gap: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+    }
+
+    .cercle{
+        gap: 10px;
+        margin-left: 10px;
+    }
+
+    #retrouver{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #wakandaFooter{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #apropos{
+        padding-top: 15px;
+    }
+
+    #texteFooter{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .logo{
+        height: 400px;
+        width: 230px;
+        background: none;
+    }
+
+    .texteFooter1{
+        letter-spacing: 10px;
+        font-size: 22px;
+
+    }
+
+
+    
+
+    
+
+    
+}

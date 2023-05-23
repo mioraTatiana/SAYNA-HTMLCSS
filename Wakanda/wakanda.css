@@ -1,4 +1,4 @@
-
+    
 body{
     margin: 0;
     padding: 0;
@@ -12,34 +12,40 @@ body{
 
 /* navigation */
 nav{
-    width: 1000px;
-    padding-top: 20px;
-    margin-left: 200px;
     display: flex;
     flex-direction: row;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
     justify-content: space-between;
-}
-nav a{
-    text-decoration: none;
-    font-size: 15px;
-    font-family: "beyno";
-    margin-left: 30px;
-    color: #F2CEF2;
+    height: 40px;
+    
 }
 
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+    padding-left: 30px;
+    font-family: "beyno";
+}
+ 
 /* texte pricipal */
-#main{
+#mainty{
    height: 650px;
    width: 100%;
    background: url("WakandaIMAGE/Pantherwakanda1.png");
-   /* background-size: 100%; */
+   background-size: 100%;
    background-repeat: no-repeat;
    background-size: cover; 
    display: flex;
    align-items: center;
    justify-content: flex-start;
-   border: 1PX solid black;
 }
+
+
+
 .textPrincipal{
     width: 500px;
     height: 100px;
@@ -69,7 +75,6 @@ p{
 }
 .contenu1, .contenu2{
     padding:  80px; 
-    border: 1PX solid green;
     padding-top: 20PX;
 
 }
@@ -174,6 +179,8 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #F2CEF2;
+
 }
 
 #facebook{
@@ -203,5 +210,20 @@ footer{
     justify-content: space-between;
     padding: 50px;
     padding-left: 0%;
+    gap: 5px
+}
+
+.cercle2{
+   
+    border-radius: 50%;
+    width: 2px;
+    height: 2px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2CEF2;
+    padding: 5px;
+
 }
 

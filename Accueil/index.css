@@ -1,0 +1,328 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(126.67% 350.28% at -21.35%
+    0%, #11213F 0%, #0B0B0B 39.1%, rgba(2, 23, 64,
+    0.837641) 94.57%) ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #F2CEF2;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    height: 40px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "beyno";
+    margin-left: 20px;
+    color: #F2CEF2;
+    
+}
+
+
+/* contenu principal */
+.principal{
+    width: 100%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 4fr;
+}
+
+.conteneur{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.principalText{
+    margin-top: 100px;
+    font-family: "cantarell";
+    color: #F2CEF2;
+    font-size: 12px;
+}
+
+.principalText h1{
+    font-family: "panthera";
+    font-size: 45px;
+    color: #9E91B7;
+}
+
+.principalText h3{
+    font-family: "wakanda";
+    letter-spacing: 3px;
+    font-size: 25px;
+    color: #9E91B7;
+}
+
+.plus{
+    color: #F2CEF2;
+    font-family: "cantarell";
+    font-size: 12px;
+}
+
+.icone{
+    height: 50px;
+    margin-top: 100px;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.icone img{
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+}
+.horizontal{
+    padding-left: 300px;
+    margin-left: 5%;
+    height: 250px;
+    background-color: #021740;
+    display: flex;
+    flex-direction: row;
+}
+.photo img{
+    width: 200px;
+    height: 250px;
+}
+#killmonger img{
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    left: 100px;
+    top: 620px;
+}
+.descri{
+    width: 300px;
+    padding: 0 15px;
+}
+.descri h3{
+    font-family: "beyno";
+    color: #9E91B7;
+}
+.descri p{
+    font-family: "cantarell";
+    font-size: 10px;
+    color: #F2CEF2;
+}
+/* description */
+.prince{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: #ffff;
+    margin-top: 100px;
+}
+.textes,.illustration{
+    padding: 40px 80px;
+}
+.historique h3{
+    text-transform: uppercase;
+    font-family: "beyno";
+    color: #9E91B7;
+    margin-top: 30px;
+}
+.historique p{
+    margin-top: 20px;
+    font-family: "cantarell";
+    font-size: 12px;
+}
+/* illuustration, à propos de black panther */
+.apropos{
+    width: 250px;
+    padding: 150px 50px;
+    margin-top: 150px;
+    margin-left: 50px;
+    background-color: #f3f0f0;
+    border-radius: 10px;
+    color: #0B0B0B;
+    font-size: 12px;
+}
+.apropos img{
+    position: absolute;
+    top: 1050px;
+    width: 250px;
+    height: 300px;
+}
+#apropos{
+    width: 250px;
+}
+#apropos>div{
+    margin-top: 50px;
+}
+.apropos h3{
+    text-align: center;
+}
+.apropos span{
+    padding: 5px 5px;
+    border-radius: 3px;
+    background-color: #3D2DA6;
+    margin-left: 10px;
+    color: #ffff;
+}
+.image img{
+    width: 350px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+/* section formulaire */
+.formulaire{
+    height: 700px;
+    background-image: url("AccueilIMAGE/Pantherhome7.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formConteneur{
+    width: 800px;
+    height: 600px;
+    font-family: "cantarell";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#ffff,#f2c2f2,#f3f0f0bd);
+    opacity: 0.6;
+    border-radius: 20%;
+}
+.formConteneur span{
+    font-size: 12px;
+    margin-left: 100px;
+}
+.formConteneur h3{
+    font-size: 30px;
+    margin-left: 100px;
+}
+input{
+    padding: 15px 150px;
+    background: none;
+    border: 1px solid #11213F;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+textarea{
+    width: 450px;
+    height: 200px;
+    background: none;
+    border: 1px solid #11213F;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+#conteneurButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+button{
+    padding: 10px 20px;
+    background-color: rgb(253, 247, 247);
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    width : 174px;
+    height : 54px;
+    border-radius: 38px;
+}
+
+/* footer */
+footer{
+    background-size: 100%;
+    background-image: url(../All\ pages/back_footer.png); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#divFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    height: 400px;
+}
+
+#logo{
+    position : relative;
+    width: 40%;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+.logo{
+    grid-area: "logo";
+    background-image: url(../All\ pages/footer1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 235px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.texteFooter1{
+    letter-spacing: 10px;
+    font-size: 22px;
+}
+
+#apropos{
+    padding-top: 20px;
+} 
+
+#footerDIV1{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;    
+}
+
+#lienIcon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+#texteFooter{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+    padding-left: 0%;
+}
+
+.cercle2{
+    border-radius: 50%;
+    width: 2px;
+    height: 2px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2CEF2;
+    padding: 5px;
+
+}
+

@@ -1,0 +1,148 @@
+@media screen and (max-width: 800px) {
+    /* nav */
+    .navigation{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    /* 1section */
+    #mainty{
+        background: none;
+        display: flex;
+        justify-content: center;
+        height: 600px;
+        background: url("WakandaIMAGE/Pantherwakanda1.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+     
+
+
+    }
+
+    .textPrincipal{
+        width: 100%;
+        height: 100px;
+        margin-left: 20px ;
+       
+    }
+
+    /* 2section */
+    .descriptionText{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenu1{
+        padding-top: 150px;
+        margin-bottom: 30px;
+    }
+
+    .contenu2{
+        margin-top: 30px;
+    }
+
+    /* Footer */
+    footer{
+        /* background-image: url(../All\ pages/back_footer.png); 
+        background-repeat: no-repeat;
+        background-size: 100%;  */
+        background-color: #11213F;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: none;
+        height: 800px;
+
+        
+    } 
+
+    #divFooter{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+    
+    }
+
+    .logo{
+        background-image: url(../All\ pages/footer1.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 235px;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+
+    #sectionfooter{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #footerDIV1{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    #lienIcon{
+        gap: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+    }
+
+    .cercle{
+        gap: 10px;
+        margin-left: 10px;
+    }
+
+    #retrouver{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #wakandaFooter{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #apropos{
+        padding-top: 15px;
+    }
+
+    #texteFooter{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .logo{
+        height: 400px;
+        width: 230px;
+        background: none;
+    }
+
+    .texteFooter1{
+        letter-spacing: 10px;
+        font-size: 22px;
+
+    }
+
+    
+}

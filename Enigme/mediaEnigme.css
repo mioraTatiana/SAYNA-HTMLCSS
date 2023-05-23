@@ -1,0 +1,239 @@
+@media screen and (max-width: 800px){
+    body{
+        background: radial-gradient(126.67% 350.28% at -21.35%
+        0%, #11213F 0%, #0B0B0B 39.1%, rgba(2, 23, 64,
+        0.837641) 94.57%, rgba(2, 23, 64, 0) 100%);
+        background-repeat: no-repeat;
+    }
+    
+    /* nav */
+    nav{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    
+     #lien{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    } 
+
+    a{
+        padding-top: 10px;
+    }
+
+    /* section 1 */
+    #premiereSection{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    
+    }
+
+    #conteneurDora{
+        width: 100%;
+    }
+    
+    #dora{
+        width: 100%;
+        height: 550px;
+        
+    }
+
+    #PSdeuxiemeDiv{
+        display: flex;
+        flex-direction: column;
+        width: 100%; 
+        height: 400px;
+        
+    }
+
+    #fondOvale1{
+        font-family: "cantarell";
+        font-size: 15px;
+        background: none;
+        width: 100%;
+        padding-top: 0px;
+        margin-top: 5px;
+    
+    }        
+    
+    
+
+    #para1{
+        text-align: center;
+        
+    }
+
+    /* section 2 */
+
+    #deuxiemeSection{
+        padding: 5px;
+        
+    }
+    
+    .texte{
+        font-family: "cantarell";
+        font-size: 15px;
+    }
+    
+    #alphabetGrand{
+        font-family: "wakanda";
+        font-size: 20px;
+        word-spacing: 5px;
+        text-align: center;
+       
+    }
+    
+    .alphabet{
+        font-family: "wakanda";
+        font-size: 15px;
+    }
+
+    #DSdeuxiemeDiv{
+        display: flex;
+        flex-direction: column;
+        padding-top: 2px;
+    }
+
+    #DSDDpremiere{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    
+    
+    #réponse{
+        width: 400px;
+        height : 56px;
+        border-radius: 38px;
+        border: 1px solid #fff;
+        background: none;
+        padding-left: 25px;
+        font-family: "cantarell";
+        font-weight: 16px;
+        
+        
+    }
+
+    #fondOvale2{
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+        background: none;
+        
+
+    }
+    
+    #para2{
+        padding: 20px;
+    }
+
+
+    /* Footer */
+    footer{
+        background-color: #11213F;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: none;
+        height: 700px;
+        padding-bottom: 20px;
+
+        
+    } 
+
+    #divFooter{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+    
+    }
+
+    .logo{
+        background-image: url(../All\ pages/footer1.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 235px;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+
+    #sectionfooter{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #footerDIV1{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    #lienIcon{
+        gap: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+    }
+
+    .cercle{
+        gap: 10px;
+        margin-left: 10px;
+    }
+
+    #retrouver{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #wakandaFooter{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #apropos{
+        padding-top: 15px;        
+
+    }
+
+    #texteFooter{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .logo{
+        height: 400px;
+        width: 230px;
+        background: none;
+    }
+
+    .texteFooter1{
+        letter-spacing: 10px;
+        font-size: 22px;
+
+    }
+    
+}
