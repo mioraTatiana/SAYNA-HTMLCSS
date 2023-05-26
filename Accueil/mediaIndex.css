@@ -16,13 +16,27 @@
     .principalText{
         margin-top: 5px;
         font-size: 13px;
-        width: 90%;
+        /* width: 90%; */
     }
+
+    #principalTI{
+        display: flex;
+        flex-direction: column;
+        margin-left: 150px;
+
+    
+    }
+
+    .principalImage{
+        margin-top: 50px;
+        width: 350px;
+        height: 350px;
+    }
+    
 
     .icone{
         margin-top: 50px;
-        margin-left: 30px;
-        margin-right: 10px;
+        margin-left: 5px;
     }
 
     /* section horizontale */
