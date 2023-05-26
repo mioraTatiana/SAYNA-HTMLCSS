@@ -18,8 +18,13 @@ nav a:current{
 
 }
 
-#marvel:hover, .logo:hover, .cercle2:hover, .cercle:hover{
+#marvel:hover, .logo:hover, .cercle2:hover, .cercle:hover, .icone.logo:hover{
     transform: scale(1.1);
+}
+
+#apropos a:hover{
+    color: purple;
+    text-decoration: underline;
 }
  
 

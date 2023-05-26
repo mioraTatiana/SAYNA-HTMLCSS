@@ -36,7 +36,7 @@ nav a{
    height: 650px;
    width: 100%;
    background: url("WakandaIMAGE/Pantherwakanda1.png");
-   background-size: 100%;
+   background-position: top center;
    background-repeat: no-repeat;
    background-size: cover; 
    display: flex;
@@ -153,7 +153,13 @@ footer{
 
 #apropos{
     padding-top: 20px;
+}
+
+#apropos a{
+    text-decoration: none;
+    color: #ffff;
 } 
+
 
 #footerDIV1{
     display: flex;

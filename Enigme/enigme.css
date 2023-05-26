@@ -214,8 +214,8 @@ footer{
     background-image: url(../All\ pages/footer1.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 235px;
-    width: 200px;
+    height: 270px;
+    width: 220px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -228,7 +228,13 @@ footer{
 
 #apropos{
     padding-top: 20px;
+}
+
+#apropos a{
+    text-decoration: none;
+    color: #ffff;
 } 
+
 
 #footerDIV1{
     display: flex;
@@ -240,6 +246,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    /* align-items: center; */
     height: 100%;
     justify-content: space-between;
     padding-top: 20px;
@@ -249,8 +256,9 @@ footer{
     border-radius: 50%;
     width: 50px;
     height: 50px;
-    display: inline-block;
+    /* display: inline-block; */
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
