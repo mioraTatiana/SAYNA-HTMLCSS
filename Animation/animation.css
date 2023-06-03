@@ -26,5 +26,11 @@ nav a:current{
     color: purple;
     text-decoration: underline;
 }
+
+.saynaLogo:hover{
+    -webkit-filter: invert(80%) sepia(12%) saturate(6132%) hue-rotate(240deg) brightness(96%) contrast(94%);
+    filter: invert(80%) sepia(12%) saturate(6132%) hue-rotate(240deg) brightness(96%) contrast(94%);
+}
+
  
 
